@@ -46,7 +46,7 @@ OR
 	"referer": "https://www.jamsessionsaresocool.com"
 }
 ```
--	eventDelete: 'POST | `/api/events/<eventid>`
+-	eventDelete: 'DELETE | `/api/events/<eventid>`
 
 You can both locally download *Postman* or use it as a browser extension | [Resources](https://www.getpostman.com)
 

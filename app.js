@@ -85,7 +85,7 @@ const welcomeMessage = {
     eventsList: 'GET | /api/events',
     eventCreation: 'POST | /api/events',
     eventDetails: 'GET | /api/events/<eventid>',
-    eventDelete: 'POST | /api/events/<eventid>',
+    eventDelete: 'DELETE | /api/events/<eventid>',
     eventsDashboard: 'GET| /api/dashboard',
   }
 }

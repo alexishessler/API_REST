@@ -176,8 +176,9 @@ app.get('/api', (req, res) => {
 
   } else {
     // Handle user IP remote address
-    const ip = req.clientIp;
-    console.log(ip)
+    // const ip = req.clientIp;
+    // console.log(ip)
+
     // Handle user cookie id
     req.session.cookieId = generate_key();
     userCookie = req.session.cookieId;

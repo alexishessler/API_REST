@@ -49,7 +49,7 @@ app.use(session({
 
 var userCookie;
 
-var userIp;
+// var userIp;
 
 var crypto = require('crypto');
 

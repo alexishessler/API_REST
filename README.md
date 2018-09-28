@@ -14,7 +14,7 @@ The data is sent in JSON format.
 ## How to use
 **Instructions to launch and test the project:**
 
-Assuming that you have NodeJS installed on your computer
+Assuming that you have Git & NodeJS installed on your computer
 
 ```
 git clone https://github.com/alexishessler/API_REST.git

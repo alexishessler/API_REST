@@ -14,15 +14,14 @@ const port = process.env.PORT || 3000;
 
 app.listen(3000, () => console.log(`Listening on port ${port}`));
 
-const requestIp = require('request-ip');
-
-
-const ipMiddleware = function(req, res, next) {
-    const clientIp = requestIp.getClientIp(req);
-    next();
-};
-
-app.use(requestIp.mw())
+// const requestIp = require('request-ip');
+//
+// const ipMiddleware = function(req, res, next) {
+//     const clientIp = requestIp.getClientIp(req);
+//     next();
+// };
+//
+// app.use(requestIp.mw())
 
 
 
